@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, ProblemStatements, RegistrationForm, Rules, Contact, Sponsors, SubmissionPortal, Schedule } from "./components";
 import "./App.css";
+import OrganisingTeam from "./components/OrganisingTeam/OrganisingTeam";
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/organising-team" element={<OrganisingTeam/>} />
       </Routes>
     </Router>
   );
