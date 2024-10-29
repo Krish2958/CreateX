@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, ProblemStatements, RegistrationForm, Rules, Contact, Sponsors, SubmissionPortal, Schedule } from "./components";
+import { Home, ProblemStatements, RegistrationForm, Rules, Contact, Sponsors, SubmissionPortal, Schedule, FAQs } from "./pages";
+import { Navbar } from "./components";
 import "./App.css";
+import './assets/scss/main.scss';
 import OrganisingTeam from "./components/OrganisingTeam/OrganisingTeam";
 function App() {
   return (
@@ -16,7 +18,6 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/organising-team" element={<OrganisingTeam/>} />
       </Routes>
-    </Router>
   );
 }
 
