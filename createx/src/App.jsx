@@ -3,26 +3,21 @@ import { Home, ProblemStatements, RegistrationForm, Rules, Contact, Sponsors, Su
 import { Navbar } from "./components";
 import "./App.css";
 import './assets/scss/main.scss';
-
-
-
+import OrganisingTeam from "./components/OrganisingTeam/OrganisingTeam";
 function App() {
   return (
     <Router>
-        <Navbar /> 
-
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/problem-statements" element={<ProblemStatements />} />
-            <Route path="/rules" element={<Rules />} />
-            <Route path="/registration-form" element={<RegistrationForm />} />
-            <Route path="/submission-portal" element={<SubmissionPortal />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/schedule" element={<Schedule />} />
-            <Route path="/sponsors" element={<Sponsors />} />
-            <Route path="/faq" element={<FAQs/>}/>
-          </Routes>
-    </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/problem-statements" element={<ProblemStatements />} />
+        <Route path="/rules-guidelines" element={<Rules />} />
+        <Route path="/registration-form" element={<RegistrationForm />} />
+        <Route path="/submission-portal" element={<SubmissionPortal />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/organising-team" element={<OrganisingTeam/>} />
+      </Routes>
   );
 }
 
