@@ -1,0 +1,129 @@
+.member-card {
+    display: flex;
+    border: 1px solid #E8E8E8;
+    width: 620px;
+    height: 413px;
+    transition: all 0.3s ease-in-out;
+  
+    &:hover {
+      box-shadow: 2px 2px 20px 0px #FF6E1F;
+    }
+  
+    .member-image {
+      width: 50%;
+      height: 100%;
+      overflow: hidden;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .member-details {
+      width: 50%;
+      padding: 24px;
+      background-color: #E8E8E8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+  
+      .member-name {
+        font-family: 'Kagitingan', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 30.4px;
+        margin-bottom: 8px;
+        margin-top: 10px;
+        color: #000;
+      }
+  
+      .member-role {
+        font-family: 'Jura', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #000;
+      }
+  
+      .member-year {
+        font-family: 'Jura', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 4px;
+      }
+    }
+  
+    .social-icons {
+      display: flex;
+      gap: 8px;
+      margin-top: 90px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+  
+      a {
+        color: #000;
+        transition: color 0.3s ease;
+        font-size: 55px;
+  
+        &:hover {
+          color: #666;
+        }
+      }
+    }
+  
+    &:hover .social-icons {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .member-card {
+      width: 290px;
+      height: 170px;
+      flex-direction: row;
+  
+      &:hover {
+        box-shadow: none;
+      }
+  
+      .member-image {
+        width: 50%;
+        height: 100%;
+      }
+  
+      .member-details {
+        width: 50%;
+        padding: 8px;
+        text-align: left;
+  
+        .member-name {
+          font-family: 'Kagitingan', sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 17px;
+          margin-bottom: 4px;
+        }
+  
+        .member-role,
+        .member-year {
+          font-family: 'Jura', sans-serif;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 14.2px;
+        }
+      }
+  
+      .social-icons {
+        opacity: 1;
+        margin-top: 25px;
+  
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  

@@ -3,6 +3,7 @@ import { Home, ProblemStatements, RegistrationForm, Rules, Contact, Sponsors, Su
 import { Navbar } from "./components";
 import "./App.css";
 import './assets/scss/main.scss';
+import OrganizingTeam from "./pages/OrganizingTeam";
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/faq" element={<FAQs/>}/>
+            <Route path="/organizing-team" element={<OrganizingTeam/>}/>
           </Routes>
     </Router>
   );
