@@ -6,7 +6,7 @@ export const columns = [
       maxWidth: '350px',
       isExpandable: true
     },
-    { title: 'Category', maxWidth: '100px' },
+    { title: 'Category', maxWidth: '125px' },
     { title: 'Organization', maxWidth: '250px' }
   ];
   
@@ -199,7 +199,7 @@ export const columns = [
           "CX027",
           "Designing Scalable Cloud Storage Solutions",
           "How can we create a cloud storage system that is scalable, cost-effective, and secure for organizations with massive data requirements?",
-          "Organization",
+          "Software",
           "Ready Bytes Software Labs Pvt. Ltd."
         ],
         [
@@ -213,7 +213,7 @@ export const columns = [
           "CX029",
           "Creating Secure IoT Networks",
           "How can we design IoT networks that are resilient to cyber-attacks and maintain data integrity for organizations operating large-scale IoT deployments?",
-          "Organization",
+          "Hybrid",
           "Ready Bytes Software Labs Pvt. Ltd."
         ],
         [
@@ -234,7 +234,7 @@ export const columns = [
           "CX032",
           "Designing AI-based Predictive Maintenance Systems",
           "How can AI be used to predict and prevent system failures in critical hardware infrastructure used by large organizations, such as data centers and manufacturing plants?",
-          "Organization",
+          "Hybrid",
           "Ready Bytes Software Labs Pvt. Ltd."
         ],
         [
@@ -314,6 +314,12 @@ export const columns = [
             "How to improve the rubbing and washing fastness in screen/block pigment printing... Pigment printing needs to improve rubbing and washing fastness.",
             "Hybrid",
             "Art India"
-        ]
+        ],
+        [
+          "CX044",
+          "Use Generative AI to provide an explanation for any type of fraud",
+          "Fraud is a big problem in the industry, however it is really difficult to educate fraud analysts about various types of fraud that occurs and it slows down the fraud detection process. With the use of Generative AI, the learning new fraud can become fast. As part of this idea, please ideate over a Generative AI based solution that help fraud analysts learn about possible fraud patterns that their data is seeing etc and recommend them for a manual review etc to make sure the analyst manually review the suggest fraud and apply appropriate fraud labels.",
+          "Software",
+          "Arun Pokharna"
+      ]
         ];
-      
