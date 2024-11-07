@@ -294,7 +294,7 @@ export const members = [
     tier: 1,
     socialLinks: [
       { icon: FaEnvelope, href: "mailto:jainpranjal30112002@gmail.com" },
-      { icon: FaInstagram, href: "https://www.instagram.com/here.lakshay" },
+      { icon: FaInstagram, href: "https://www.instagram.com/" },
       {
         icon: FaLinkedin,
         href: "http://www.linkedin.com/in/yaha-pranjhol-hai",

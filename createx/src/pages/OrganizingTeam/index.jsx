@@ -13,7 +13,6 @@ const OrganizingTeam = () => {
         ORGANIZING <span className="text-primary">TEAM</span>
       </h1>
 
-      {/* Tier 1 */}
       <div className="flex flex-col items-center mt-8 md:mt-16">
         <h2 className="w-full max-w-[1280px] text-left font-[Kagitingan] text-[28px] md:text-[96px] text-white mb-8">
           TIER 1
@@ -32,7 +31,6 @@ const OrganizingTeam = () => {
         </div>
       </div>
 
-      {/* Tier 2 */}
       <div className="flex flex-col items-center mt-16 md:mt-28">
         <h2 className="w-full max-w-[1280px] text-left font-[Kagitingan] text-[28px] md:text-[96px] text-primary mb-8">
           TIER 2
@@ -51,7 +49,6 @@ const OrganizingTeam = () => {
         </div>
       </div>
 
-      {/* Tier 3 */}
       <div className="flex flex-col items-center mt-16 md:mt-28">
         <h2 className="w-full max-w-[1280px] text-left font-[Kagitingan] text-[28px] md:text-[96px] text-white mb-8">
           TIER 3
