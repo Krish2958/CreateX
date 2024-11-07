@@ -1,8 +1,8 @@
 import React from "react";
 import SponsorCard from "./SponsorCard/SponsorCard";
-import Background from "../../assets/Images/Sponsor-Background.png";
 import { SponsorsData } from './constants';
 import './Sponsors.scss';
+import { Assets } from "../../assets";
 
 const Sponsors = () => {
   
@@ -10,7 +10,7 @@ const Sponsors = () => {
     <div className="relative w-screen h-screen overflow-hidden">
       <div className="absolute inset-x-0 bottom-0 h-full bg-black md:hidden" />
       <img
-        src={Background}
+        src={Assets.CreateX_BG1}
         alt="Background Image"
         className="absolute inset-0 w-full h-full object-cover hidden md:block"
       />
