@@ -9,6 +9,7 @@ import MLVTEC from './MLVTEC.png';
 import Rulebook from './CreateX2024_Rulebook.pdf';
 import HashTrust from './HashTrust.png';
 import InnovatechS from './InnovatechS.png';
+import Bitss from './Bitss.png';
 
 export const Assets = {
     CreateXMp4: CreateXMp4,
@@ -22,5 +23,5 @@ export const Assets = {
     Rulebook: Rulebook,
     HashTrust: HashTrust,
     InnovatechS: InnovatechS,
-
+    Bitss: Bitss,
 }

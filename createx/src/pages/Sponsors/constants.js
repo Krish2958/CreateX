@@ -32,6 +32,16 @@ export const SponsorsData = [
       },
     },
     {
+      title: "Associate Sponsor",
+      description: "BITSS, we’re passionate about crafting innovative software solutions that fuel business success. Bitss has a diverse mix of clientele across small, medium and large scale organization spread across its product and services.  The many varied industry verticals it has delivered across adds depth and enhance the expertise and know how to better work on your top lines and bottom line.",
+      companyName: "Bitss Tech",
+      imageUrl: Assets.Bitss,
+      socials: {
+        linkedin: "https://in.linkedin.com/company/bitsstech",
+        instagram: " https://www.instagram.com/bitsstechniques/",
+      },
+    },
+    {
       title: "Affiliate Partner",
       description: "Hashtrust follows the latest technology with innovative solutions to convert your imagination into a software reality. We're at the forefront of technology, consistently embracing the latest advancements. Our commitment to innovation allows us to turn your imaginative concepts into real-world software solutions with ease and precision.",
       companyName: "HashTrust Technologies",
