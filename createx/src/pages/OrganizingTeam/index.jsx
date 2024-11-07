@@ -13,52 +13,61 @@ const OrganizingTeam = () => {
         ORGANIZING <span className="text-primary">TEAM</span>
       </h1>
 
-      <h2 className="pl-4 font-[Kagitingan] text-[28px] md:text-[96px] md:pl-32 text-white mt-8">
-        TIER 1
-      </h2>
-      <div className="flex flex-wrap justify-center gap-8 mt-8">
-        {tier1Members.map((member, index) => (
-          <MemberCard
-            key={index}
-            name={member.name}
-            role={member.role}
-            year={member.year}
-            imageUrl={member.imageUrl}
-            socialLinks={member.socialLinks}
-          />
-        ))}
+      {/* Tier 1 */}
+      <div className="flex flex-col items-center mt-8 md:mt-16">
+        <h2 className="w-full max-w-[1280px] text-left font-[Kagitingan] text-[28px] md:text-[96px] text-white mb-8">
+          TIER 1
+        </h2>
+        <div className="flex flex-wrap justify-center max-w-[1280px] gap-8">
+          {tier1Members.map((member, index) => (
+            <MemberCard
+              key={index}
+              name={member.name}
+              role={member.role}
+              year={member.year}
+              imageUrl={member.imageUrl}
+              socialLinks={member.socialLinks}
+            />
+          ))}
+        </div>
       </div>
 
-      <h2 className="pl-4 font-[Kagitingan] text-[28px] mt-16 md:text-[96px] md:pl-32 text-primary md:mt-28">
-        TIER 2
-      </h2>
-      <div className="flex flex-wrap justify-center gap-8 mt-8">
-        {tier2Members.map((member, index) => (
-          <MemberCard
-            key={index}
-            name={member.name}
-            role={member.role}
-            year={member.year}
-            imageUrl={member.imageUrl}
-            socialLinks={member.socialLinks}
-          />
-        ))}
+      {/* Tier 2 */}
+      <div className="flex flex-col items-center mt-16 md:mt-28">
+        <h2 className="w-full max-w-[1280px] text-left font-[Kagitingan] text-[28px] md:text-[96px] text-primary mb-8">
+          TIER 2
+        </h2>
+        <div className="flex flex-wrap justify-center max-w-[1280px] gap-8">
+          {tier2Members.map((member, index) => (
+            <MemberCard
+              key={index}
+              name={member.name}
+              role={member.role}
+              year={member.year}
+              imageUrl={member.imageUrl}
+              socialLinks={member.socialLinks}
+            />
+          ))}
+        </div>
       </div>
 
-      <h2 className="pl-4 font-[Kagitingan] text-[28px] mt-16 md:text-[96px] md:pl-32 text-white md:mt-28">
-        TIER 3
-      </h2>
-      <div className="flex flex-wrap justify-center gap-8 mt-8">
-        {tier3Members.map((member, index) => (
-          <MemberCard
-            key={index}
-            name={member.name}
-            role={member.role}
-            year={member.year}
-            imageUrl={member.imageUrl}
-            socialLinks={member.socialLinks}
-          />
-        ))}
+      {/* Tier 3 */}
+      <div className="flex flex-col items-center mt-16 md:mt-28">
+        <h2 className="w-full max-w-[1280px] text-left font-[Kagitingan] text-[28px] md:text-[96px] text-white mb-8">
+          TIER 3
+        </h2>
+        <div className="flex flex-wrap justify-center max-w-[1280px] gap-8">
+          {tier3Members.map((member, index) => (
+            <MemberCard
+              key={index}
+              name={member.name}
+              role={member.role}
+              year={member.year}
+              imageUrl={member.imageUrl}
+              socialLinks={member.socialLinks}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
