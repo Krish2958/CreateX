@@ -64,8 +64,8 @@ const Navbar = () => {
           <Link to="/sponsors" className="text-white font-kagitingan text-2xl text-left" onClick={closeMenu}>SPONSORS</Link>
           <Link to="/faq" className="text-white font-kagitingan text-2xl text-left" onClick={closeMenu}>FAQ</Link>
           <Link to="/contact" className="text-white font-kagitingan text-2xl text-left" onClick={closeMenu}>CONTACT</Link>
-          <Link to="/schedule" className="text-white font-kagitingan text-2xl text-left" onClick={closeMenu}>SCHEDULE</Link>
-          
+          <Link to="/organizing-team" className="text-white font-kagitingan text-2xl text-left" onClick={closeMenu}>Organizing Team</Link>
+          <Link to="/schedule" className="text-white font-kagitingan text-2xl text-left" onClick={closeMenu}>SCHEDULE</Link>          
           <div className="border-t border-white my-4"></div>
         </div>
         <div className="absolute bottom-8 left-0 w-full flex justify-center">
