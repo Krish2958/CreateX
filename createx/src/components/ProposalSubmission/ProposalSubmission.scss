@@ -1,0 +1,76 @@
+.eb {
+    font-size: 5.4rem;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+        max-width: 100%;
+        text-align: center;
+        
+    }
+}
+
+.eb-container{
+    align-items: center;
+    
+
+    @media screen and (max-width: 768px) {
+        gap: 1rem;
+    }
+}
+
+.eb-desc{
+    font-style: underline;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+
+        
+    }
+
+    & a {
+        text-decoration: underline;
+    }
+
+}
+
+.ebh {
+    
+    align-items: center;
+    gap: 1.5rem;
+    @media screen and (max-width: 768px) {
+        gap: 1rem;
+        max-width: 100%;
+        
+    }
+}
+
+.ebh-off{
+    font-size: 3.2rem;
+    @media screen and (max-width: 768px) {
+        font-size: 1.6rem;
+        text-wrap: nowrap;
+        max-width: 100%;
+        
+    }
+}
+
+.for {
+    font-family: "Jura";
+    font-size: 2.4rem;
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+        max-width: 100%;
+        
+    }
+}
+
+button{
+    font-family: "Kagitingan";
+}
+
+.about__content__description--container {
+    width: fit-content;
+}
+
+.about__content__description {
+    padding: 0;
+}

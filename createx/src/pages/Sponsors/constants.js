@@ -32,6 +32,16 @@ export const SponsorsData = [
       },
     },
     {
+      title: "Associate Sponsor",
+      description: "At Bitss Techniques, we lead the way in delivering innovative software solutions in Bhilwara and Rajasthan. With over 15 years of experience, we are trusted by businesses of all sizes for our expertise and commitment to excellence. Our services range from web development to cloud hosting, empowering clients to achieve outstanding results. We focus on creating tailored, scalable solutions that drive growth and success. Partner with us to transform your ideas into impactful digital solutions.",
+      companyName: "Bitss Tech",
+      imageUrl: Assets.BitssTech,
+      socials: {
+        linkedin: "https://in.linkedin.com/company/bitsstech",
+        instagram: " https://www.instagram.com/bitsstechniques/",
+      },
+    },
+    {
       title: "Affiliate Partner",
       description: "Hashtrust follows the latest technology with innovative solutions to convert your imagination into a software reality. We're at the forefront of technology, consistently embracing the latest advancements. Our commitment to innovation allows us to turn your imaginative concepts into real-world software solutions with ease and precision.",
       companyName: "HashTrust Technologies",
