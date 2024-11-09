@@ -3,12 +3,11 @@ import './RegEnds.scss';
 import { Button } from 'react-bootstrap';
 import CountdownTimer from '../CountdownTimer';
 import { Assets } from '../../assets';
-import { BsInstagram } from 'react-icons/bs';
 
 const RegEnds = () => {
   return (
     <div className='about scroll-section'>
-      <img className='about__background' src={Assets.CreateX_BG1} alt="" />
+      <img className='about__background' src={Assets.CreateX_BG4} alt="" />
       <div className='about__container'>
         <div className='about__content eb-container'>
           <span className='about__content__heading'>
@@ -24,7 +23,7 @@ const RegEnds = () => {
           <span className='ebo'><h1 className='about__content__heading--white ebh-off'>Registrations Ends In</h1>
 
 </span>
-          <CountdownTimer targetDate='2024-11-10T23:59:59' />
+          <CountdownTimer targetDate='2024-11-15T23:59:59' />
 
           </div>
         </div>

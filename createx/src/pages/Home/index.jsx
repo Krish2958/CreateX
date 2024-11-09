@@ -1,6 +1,6 @@
 import React from 'react';
 import { Assets } from '../../assets';
-import { ScrollSection, ScrollSection2, ScrollSection3, ScrollSection5, ScrollSection6, ScrollSection7, ScrollSection8, CreateXVideo, RegEnds } from '../../components';
+import { ScrollSection, ScrollSection2, ScrollSection3, ScrollSection5, ScrollSection6, ScrollSection7, ScrollSection8, CreateXVideo, RegEnds, ProposalSubmission } from '../../components';
 
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
         <CreateXVideo />
       </div>
       <RegEnds />
+      <ProposalSubmission />
       <ScrollSection
       className='scroll-section'
         background={Assets.CreateX_BG1}
@@ -19,6 +20,7 @@ const Home = () => {
         highlightText="CreateX"
         description="is an immersive competition that empowers students to tackle industry challenges with innovative solutions. Over 30 days, participants will explore their potential, collaborate, and compete, leading up to a grand exhibition and recognition of their work."
       />
+      {/* Additional sections with different content */}
       <ScrollSection2
       className='scroll-section'
         background={Assets.CreateX_BG1}

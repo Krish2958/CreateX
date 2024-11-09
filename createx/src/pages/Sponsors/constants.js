@@ -33,9 +33,9 @@ export const SponsorsData = [
     },
     {
       title: "Associate Sponsor",
-      description: "BITSS, we’re passionate about crafting innovative software solutions that fuel business success. Bitss has a diverse mix of clientele across small, medium and large scale organization spread across its product and services.  The many varied industry verticals it has delivered across adds depth and enhance the expertise and know how to better work on your top lines and bottom line.",
+      description: "At Bitss Techniques, we lead the way in delivering innovative software solutions in Bhilwara and Rajasthan. With over 15 years of experience, we are trusted by businesses of all sizes for our expertise and commitment to excellence. Our services range from web development to cloud hosting, empowering clients to achieve outstanding results. We focus on creating tailored, scalable solutions that drive growth and success. Partner with us to transform your ideas into impactful digital solutions.",
       companyName: "Bitss Tech",
-      imageUrl: Assets.Bitss,
+      imageUrl: Assets.BitssTech,
       socials: {
         linkedin: "https://in.linkedin.com/company/bitsstech",
         instagram: " https://www.instagram.com/bitsstechniques/",
