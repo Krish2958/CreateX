@@ -35,7 +35,8 @@ const ProposalSubmission = () => {
             </h1>
           </div>
           <div className='about__content__description--hashtag-container ebh'>
-            <Button className='reg-button rules-download' onClick={() => setIsOpen(true)} >Submit Your Propsal</Button>
+            <h1 className='for2'>If already registered, </h1>
+            <Button className='reg-button rules-download' onClick={() => setIsOpen(true)} >Submit Your Propsal Here</Button>
    {isOpen &&        
     <FilloutSliderEmbed
       filloutId="6buVieh4Rzus"
