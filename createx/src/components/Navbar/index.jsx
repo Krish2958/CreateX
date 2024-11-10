@@ -1,11 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button/index';
+import { Button as RButton } from 'react-bootstrap';
+import './Navbar.scss';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef(null);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,12 +50,13 @@ const Navbar = () => {
         <Link to="/" className="mx-auto">
           <img src="/assets/logo.svg" alt="CreateX Logo" className="h-14" />
         </Link>
+        <RButton className='reg-button rules-download nvb' target='_blank' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG'>Register Now</RButton>
       </div>
 
       <div ref={menuRef} className={`fixed top-0 left-0 w-80 h-full bg-[#1E1E1E] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-8 flex flex-col space-y-6">
           <div className="flex justify-between items-center mb-6">
-            <div></div>
+            <RButton className='reg-button rules-download nv' target='_blank' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG'>Register Now</RButton>
             <button onClick={toggleMenu} className="p-2">
               <img src="/assets/menu-close.svg" alt="Close Menu" className="w-8 h-8" />
             </button>

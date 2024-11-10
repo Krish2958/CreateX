@@ -1,9 +1,10 @@
 .eb {
     font-size: 5.4rem;
+    text-align: center;
     @media screen and (max-width: 768px) {
         font-size: 2rem;
         max-width: 100%;
-        text-align: center;
+        
         
     }
 }
@@ -63,9 +64,6 @@
     }
 }
 
-button{
-    font-family: "Kagitingan";
-}
 
 .about__content__description--container {
     width: fit-content;
