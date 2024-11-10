@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ProposalSubmission.scss';
 import { Button } from 'react-bootstrap';
 import CountdownTimer from '../CountdownTimer';
@@ -6,13 +6,15 @@ import { Assets } from '../../assets';
 import { IconContext } from "react-icons";
 import { BsLink45Deg } from "react-icons/bs";
 
-import { FilloutSliderEmbedButton
+import { FilloutSliderEmbed
  } from "@fillout/react";
-import { useState } from "react";
 import "@fillout/react/style.css";
 
 
 const ProposalSubmission = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className='about scroll-section'>
       <img className='about__background' src={Assets.CreateX_BG4} alt="" />
@@ -33,7 +35,10 @@ const ProposalSubmission = () => {
             </h1>
           </div>
           <div className='about__content__description--hashtag-container ebh'>
-    <FilloutSliderEmbedButton
+            <h1 className='for2'>If already registered, </h1>
+            <Button className='reg-button rules-download' onClick={() => setIsOpen(true)} >Submit Your Propsal Here</Button>
+   {isOpen &&        
+    <FilloutSliderEmbed
       filloutId="6buVieh4Rzus"
       inheritParameters
       parameters={{
@@ -41,13 +46,11 @@ const ProposalSubmission = () => {
       }}
       className="reg-button rules-download"
       sliderDirection="right"
-      text="Submit Your Proposal"
-      color="#FF6E1F"
-      size='large'
-      
-      style={{ fontFamily: "Kagitingan"}}
+      onClose={() => setIsOpen(false)}
       
     />
+
+}
           <span className='ebo'><h1 className='about__content__heading--white ebh-off'>Proposal Submission Ends In</h1>
 
 </span>
