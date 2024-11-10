@@ -12,6 +12,7 @@
     @media screen and (max-width: 768px) {
         position: relative;
         top: 0;
+        display: none;
         
     }
 }
@@ -59,4 +60,12 @@
 .video-icon {
     width: 3em;
     height: 3rem;
+}
+
+.video-m,  video{
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+        z-index: 1;
+    }
 }

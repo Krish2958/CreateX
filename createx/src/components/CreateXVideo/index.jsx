@@ -29,7 +29,7 @@ const CreateXVideo = () => {
         autoPlay
         loop={false}
         muted
-        className='video'
+        className='videoc'
         >
         <source src={Assets.CreateXMp4} type="video/mp4" />
         Oops! The CreateX 2024 logo video couldn&apos;t be loaded. Stay tuned for exciting updates!

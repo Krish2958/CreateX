@@ -1,14 +1,14 @@
 import React from 'react';
 import { Assets } from '../../assets';
-import { ScrollSection, ScrollSection2, ScrollSection3, ScrollSection5, ScrollSection6, ScrollSection7, ScrollSection8, RegEnds, ProposalSubmission, CreateXVideo2 } from '../../components';
+import { ScrollSection, ScrollSection2, ScrollSection3, ScrollSection5, ScrollSection6, ScrollSection7, ScrollSection8, RegEnds, ProposalSubmission, CreateXVideo, CreateXVideo2 } from '../../components';
 
 
 const Home = () => {
   return (
     <div className='scroll-container'>
-      {/* <div className='scroll-section'>
+      <div className='scroll-section'>
         <CreateXVideo />
-      </div> */}
+      </div>
       <div className='scroll-section'>
         < CreateXVideo2 />
       </div>
