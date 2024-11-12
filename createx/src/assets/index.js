@@ -13,6 +13,7 @@ import BitssTech from './Bitss_Tech.png';
 import Infographic from './CreateX2024_Infographic.pdf';
 import SponsorsMp4 from './Sponsors.mp4';
 import MobileSponsors from './MobileSponsors.mp4';
+import Unstop from './unstop.png';
 
 export const Assets = {
     CreateXMp4: CreateXMp4,
@@ -30,4 +31,5 @@ export const Assets = {
     Infographic: Infographic,
     SponsorsMp4: SponsorsMp4,
     MobileSponsors: MobileSponsors,
+    Unstop: Unstop,
 };

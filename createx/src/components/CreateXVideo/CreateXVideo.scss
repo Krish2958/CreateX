@@ -44,7 +44,7 @@
 
 /* Ensure visibility of the container on smaller screens */
 .video-icon, .video-text {
-    display: none;
+    display: flex;
 
     @media screen and (max-width: 768px) {
         display: block;
