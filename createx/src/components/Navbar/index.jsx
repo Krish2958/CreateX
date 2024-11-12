@@ -44,15 +44,29 @@ const Navbar = () => {
           <img src="/assets/menu-icon.svg" alt="Menu" className="w-[5.75rem] h-[3.875rem]" />
         </button>
 
-        <Link to="/" className="mx-auto">
-          <img src="/assets/logo.svg" alt="CreateX Logo" className="h-14" />
-        </Link>
+        <div className="flex-1 flex justify-center">
+          <Link to="/" className="mx-auto">
+            <img src="/assets/logo.svg" alt="CreateX Logo" className="h-14" />
+          </Link>
+        </div>
+
+        <div className="hidden md:flex items-center">
+          <Link to="https://unstop.com/o/LYmv96q?lb=5a4Bv1YG" target="_blank">
+            <Button className="px-6 py-2">REGISTER</Button>
+          </Link>
+        </div>
       </div>
 
       <div ref={menuRef} className={`fixed top-0 left-0 w-80 h-full bg-[#1E1E1E] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-8 flex flex-col space-y-6">
           <div className="flex justify-between items-center mb-6">
-            <div></div>
+            <Link 
+              to="https://unstop.com/o/LYmv96q?lb=5a4Bv1YG" 
+              target="_blank" 
+              className="flex items-center"
+            >
+              <Button className="px-4 py-2 text-base">REGISTER</Button>
+            </Link>
             <button onClick={toggleMenu} className="p-2">
               <img src="/assets/menu-close.svg" alt="Close Menu" className="w-8 h-8" />
             </button>

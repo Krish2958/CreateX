@@ -26,7 +26,7 @@ const FAQs = () => {
               onClick={() => togglerFunction(i)}
             >
               <p className="font-jura text-2xl mb-0 w-full text-left ml-4">{item.title}</p>
-              <span>
+              <span className="transition-transform duration-300">
                 {activeId === i ? (
                   <i className="fa-solid fa-angle-up"></i>
                 ) : (
@@ -35,11 +35,12 @@ const FAQs = () => {
               </span>
             </div>
             <div
-              className={`transition-all ease-in-out duration-500 ${
-                activeId === i ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+              className={`transition-all duration-500 ease-in-out overflow-hidden ${
+                activeId === i ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
               }`}
               style={{
-                transitionProperty: "max-height, opacity",
+                transitionProperty: "max-height, opacity, padding",
+                transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)"
               }}
             >
               <div className="px-6 py-4 ml-5 mr-5 text-black flex items-center justify-center">
