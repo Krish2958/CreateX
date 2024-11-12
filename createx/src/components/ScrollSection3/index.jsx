@@ -2,9 +2,8 @@ import React from 'react';
 import HashtagCreateToInnovate from '../HashtagCreateToInnovate'; // Adjust path as needed
 import './ScrollSection3.scss';
 import { Button } from 'react-bootstrap';
-import { Assets
-  
- } from '../../assets';
+import { Assets } from '../../assets';
+
 const ScrollSection3 = ({ background, headingOrange, description }) => {
   return (
     <div className='about_rules scroll-section'>
@@ -18,7 +17,11 @@ const ScrollSection3 = ({ background, headingOrange, description }) => {
           <p className='about_rules__content__description'>
            {description}
           </p>
-          <div className='about__content__description--hashtag-container'><Button href={Assets.Rulebook}  className='rules-download reg-button'>View Rulebook</Button></div>
+          <div className='about__content__description--hashtag-container'>
+            <div className='rules-download-container'><Button href={Assets.Rulebook}  className='rules-download reg-button'>View Rulebook</Button>
+          <Button href={Assets.Infographic}  className='rules-download reg-button'>View Infographic</Button>
+          </div>
+          </div>
         </div>
       </div>
     </div>

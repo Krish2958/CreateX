@@ -12,4 +12,6 @@ export { default as CreateXVideo } from './CreateXVideo';
 export { default as Button } from './Button';
 export { default as Table } from './Table';
 export { default as EarlyBird } from './EarlyBird';
-
+export { default as RegEnds } from './RegEnds';
+export { default as ProposalSubmission } from './ProposalSubmission';
+export { default as CreateXVideo2 } from './CreateXVideo2';

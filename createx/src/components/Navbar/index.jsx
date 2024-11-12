@@ -1,11 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button/index';
+import { Button as RButton } from 'react-bootstrap';
+import './Navbar.scss';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef(null);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,35 +41,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black bg-opacity-50 backdrop-blur-md' : 'bg-transparent'}`}>
-      <div className="mx-auto px-4 py-2 flex justify-between items-center bg-[rgba(0,0,0,0.70)] backdrop-blur-[10px]">
+    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  'bg-black bg-opacity-50 backdrop-blur-md'`}>
+      <div className="mx-auto  flex justify-between items-center bg-[rgba(0,0,0,0.70)] backdrop-blur-[10px]">
         <button onClick={toggleMenu} className={`${isMenuOpen ? 'invisible' : 'visible'}`}>
           <img src="/assets/menu-icon.svg" alt="Menu" className="w-[5.75rem] h-[3.875rem]" />
         </button>
 
-        <div className="flex-1 flex justify-center">
-          <Link to="/" className="mx-auto">
-            <img src="/assets/logo.svg" alt="CreateX Logo" className="h-14" />
-          </Link>
-        </div>
-
-        <div className="hidden md:flex items-center">
-          <Link to="https://unstop.com/o/LYmv96q?lb=5a4Bv1YG" target="_blank">
-            <Button className="px-6 py-2">REGISTER</Button>
-          </Link>
-        </div>
+        <Link to="/" className="mx-auto">
+          <img src="/assets/logo.svg" alt="CreateX Logo" className="h-14" />
+        </Link>
+        <RButton className='reg-button rules-download nvb' target='_blank' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG'>Register Now</RButton>
       </div>
 
       <div ref={menuRef} className={`fixed top-0 left-0 w-80 h-full bg-[#1E1E1E] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-8 flex flex-col space-y-6">
           <div className="flex justify-between items-center mb-6">
-            <Link 
-              to="https://unstop.com/o/LYmv96q?lb=5a4Bv1YG" 
-              target="_blank" 
-              className="flex items-center"
-            >
-              <Button className="px-4 py-2 text-base">REGISTER</Button>
-            </Link>
+            <RButton className='reg-button rules-download nv' target='_blank' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG'>Register Now</RButton>
             <button onClick={toggleMenu} className="p-2">
               <img src="/assets/menu-close.svg" alt="Close Menu" className="w-8 h-8" />
             </button>
@@ -82,7 +72,7 @@ const Navbar = () => {
           
           <div className="border-t border-white my-4"></div>
         </div>
-        <div className="absolute bottom-8 left-0 w-full flex justify-center">
+        <div className="absolute left-0 w-full flex justify-center">
           <img src="/assets/logo.svg" alt="CreateX Logo" className="h-12" />
         </div>
       </div>

@@ -9,6 +9,10 @@ import MLVTEC from './MLVTEC.png';
 import Rulebook from './CreateX2024_Rulebook.pdf';
 import HashTrust from './HashTrust.png';
 import InnovatechS from './InnovatechS.png';
+import BitssTech from './Bitss_Tech.png';
+import Infographic from './CreateX2024_Infographic.pdf';
+import SponsorsMp4 from './Sponsors.mp4';
+import MobileSponsors from './MobileSponsors.mp4';
 
 export const Assets = {
     CreateXMp4: CreateXMp4,
@@ -22,5 +26,8 @@ export const Assets = {
     Rulebook: Rulebook,
     HashTrust: HashTrust,
     InnovatechS: InnovatechS,
-
-}
+    BitssTech: BitssTech,
+    Infographic: Infographic,
+    SponsorsMp4: SponsorsMp4,
+    MobileSponsors: MobileSponsors,
+};

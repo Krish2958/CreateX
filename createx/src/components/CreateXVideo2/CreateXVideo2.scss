@@ -8,10 +8,11 @@
     gap: 5rem;
 }
 
-.videoc ,video {
+.video ,video {
     @media screen and (max-width: 768px) {
         position: relative;
         top: 0;
+        display: none;
         
     }
 }
@@ -44,7 +45,7 @@
 
 /* Ensure visibility of the container on smaller screens */
 .video-icon, .video-text {
-    display: flex;
+    display: none;
 
     @media screen and (max-width: 768px) {
         display: block;
@@ -59,4 +60,12 @@
 .video-icon {
     width: 3em;
     height: 3rem;
+}
+
+.video-m,  video{
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: block;
+        z-index: 1;
+    }
 }
