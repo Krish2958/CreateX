@@ -6,7 +6,7 @@ import { Assets } from "../../assets";
 
 const PartnerCard = ({ title, description, companyName, imageUrl, socials = {} }) => {
   return (
-    <div className="w-[20rem] sm:w-[30rem] md:w-[50rem] lg:w-[60rem] xl:w-[70rem] 2xl:w-[80rem] h-[33.33rem] rounded-[3.33rem] border-[5px] border-primary bg-black p-8">
+    <div className="w-[20rem] sm:w-[30rem] md:w-[50rem] lg:w-[60rem] xl:w-[70rem] 2xl:w-[80rem] h-[20rem] md:h-[33.33rem] rounded-[3.125rem] border-[5px] border-primary bg-black p-8">
       <div className="flex flex-col items-center justify-center h-full">
         <div className="bg-[#E8E8E8] rounded-[7.40625rem] w-[15rem] sm:w-[20rem] md:w-[25rem] lg:w-[30.875rem] h-[8rem] sm:h-[10rem] md:h-[12rem] lg:h-[14.625rem] flex-shrink-0 flex items-center justify-center p-6">
           <img
