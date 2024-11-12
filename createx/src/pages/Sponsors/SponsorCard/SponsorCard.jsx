@@ -28,14 +28,14 @@ const SponsorCard = ({
 
   return (
     <div
-  className={`w-[20rem] sm:w-[30rem] md:w-[50rem] lg:w-[60rem] xl:w-[70rem] 2xl:w-[80rem] ${
-    isMobile ? "h-auto sponsor-card" : "h-[33.33rem]"
-  } rounded-[3.33rem] border-[5px] transition-all duration-300 relative ${
-    isHovered || isMobile ? "bg-primary border-primary text-black" : "bg-black border-primary"
-  }`}
-  onMouseEnter={() => !isMobile && setIsHovered(true)}
-  onMouseLeave={() => !isMobile && setIsHovered(false)}
->
+      className={`w-[20rem] sm:w-[30rem] md:w-[50rem] lg:w-[60rem] xl:w-[70rem] 2xl:w-[80rem] ${
+        isMobile ? "min-h-[33.33rem] h-auto sponsor-card" : "h-[33.33rem]"
+      } rounded-[3.33rem] border-[5px] transition-all duration-300 relative ${
+        isHovered || isMobile ? "bg-primary border-primary text-black" : "bg-black border-primary"
+      }`}
+      onMouseEnter={() => !isMobile && setIsHovered(true)}
+      onMouseLeave={() => !isMobile && setIsHovered(false)}
+    >
 
       <div className="flex flex-col items-center justify-center h-full">
         {/* Mobile */}
