@@ -25,7 +25,7 @@ const EarlyBird = () => {
             </p>
           </div>
           <div className='about__content__description--hashtag-container ebh'>
-            <Button className='reg-button rules-download' target='_blank' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG'>Register Now</Button>
+            
           <span className='ebo'><h1 className='about__content__heading--white ebh-off'>Early Bird Offer Ends In</h1>
 
 </span>

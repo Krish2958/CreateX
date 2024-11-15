@@ -54,7 +54,7 @@ const ProposalSubmission = () => {
           <span className='ebo'><h1 className='about__content__heading--white ebh-off'>Proposal Submission Ends In</h1>
 
 </span>
-          <CountdownTimer targetDate='2024-11-15T23:59:59' />
+          <CountdownTimer targetDate='2024-11-16T23:59:59' />
 
           </div>
         </div>

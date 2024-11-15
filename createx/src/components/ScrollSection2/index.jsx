@@ -20,7 +20,7 @@ const ScrollSection2 = ({ background, logo, headingWhite, headingOrange, descrip
             <img className='about__logo' src={logo} alt="" />
           </div>
           <div className='about__content__description--hashtag-container'>
-            <Button className='reg-button rules-download' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG' >Register Now</Button>
+            {/* <Button className='reg-button rules-download' href='https://unstop.com/o/LYmv96q?lb=5a4Bv1YG' >Register Now</Button> */}
           </div>
         </div>
 
