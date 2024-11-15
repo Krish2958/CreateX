@@ -48,7 +48,7 @@ const Sponsors = () => {
           style={{ marginTop: "4rem" }}>
           Sponsors
         </div>
-        <div className="flex flex-col items-center justify-center space-y-4 mt-2 md:mt-[10rem]">
+        <div className="flex flex-col items-center justify-center space-y-4 mt-2 md:mt-[5rem] gap-20">
           {SponsorsData.map((sponsor, index) => (
             <SponsorCard 
               key={index}

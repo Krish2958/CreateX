@@ -321,5 +321,19 @@ export const columns = [
           "Fraud is a big problem in the industry, however it is really difficult to educate fraud analysts about various types of fraud that occurs and it slows down the fraud detection process. With the use of Generative AI, the learning new fraud can become fast. As part of this idea, please ideate over a Generative AI based solution that help fraud analysts learn about possible fraud patterns that their data is seeing etc and recommend them for a manual review etc to make sure the analyst manually review the suggest fraud and apply appropriate fraud labels.",
           "Software",
           "Arun Pokharna"
-      ]
+      ],
+      [
+        "CX045",
+        "AI News Aggregator and Converter",
+        "Looking for a solution that could aggregate news/ updates from different platform , rephrase it in local language with brand header and push in as web notification to subscribers.",
+        "Software",
+        "DKD Digital",
+      ],
+      [
+        "CX046",
+        "News blog web application",
+        "App that connects/enables journalist from several areas to create blog, the application after basic filtering converte blog to news and flush the news to various platforms pages based on category of news.",
+        "Software",
+        "DKD Digital",
+      ],
         ];
