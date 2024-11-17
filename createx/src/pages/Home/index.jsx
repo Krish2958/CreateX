@@ -13,7 +13,7 @@ const Home = () => {
         < CreateXVideo2 />
       </div>
       <RegEnds />
-      <ProposalSubmission />
+      {/* <ProposalSubmission /> */}
       <ScrollSection
       className='scroll-section'
         background={Assets.CreateX_BG1}
