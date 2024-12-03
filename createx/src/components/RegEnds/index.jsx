@@ -11,12 +11,12 @@ const RegEnds = () => {
       <div className='about__container'>
         <div className='about__content eb-container'>
           <span className='about__content__heading'>
-            <h1 className='about__content__heading--orange eb'>TEAM Registrations have Ended.</h1>
+            <h1 className='about__content__heading--orange eb'>Project Exhibition Coming Soon.</h1>
           </span>
             {/* <h1 className='about__content__heading--white'>₹100/- per person</h1> */}
            
           <div className='about__content__description--container'>
-           
+           <h1 className='about__content__heading--white'>Stay Tuned.</h1>
           </div>
           {/* <div className='about__content__description--hashtag-container ebh'>
             

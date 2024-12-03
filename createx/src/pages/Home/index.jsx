@@ -1,6 +1,6 @@
 import React from 'react';
 import { Assets } from '../../assets';
-import { ScrollSection, ScrollSection2, ScrollSection3, ScrollSection5, ScrollSection6, ScrollSection7, ScrollSection8, RegEnds, ProposalSubmission, CreateXVideo, CreateXVideo2 } from '../../components';
+import { ScrollSection, ScrollSection2, ScrollSection3, ScrollSection5, ScrollSection6, ScrollSection7, ScrollSection8, RegEnds, ProposalSubmission, CreateXVideo, CreateXVideo2, ProjectSubmission } from '../../components';
 
 
 const Home = () => {
@@ -14,6 +14,8 @@ const Home = () => {
       </div>
       <RegEnds />
       {/* <ProposalSubmission /> */}
+      
+      <ProjectSubmission />
       <ScrollSection
       className='scroll-section'
         background={Assets.CreateX_BG1}
